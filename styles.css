@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 
 * {
+    box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+}
+
+html, body {
+    background: #979797;
+    margin:0;
+    color:#FFFFFF;
+    overflow: hidden;
+}
+
+.landing {
+position: relative;
+background-image: url('img/back.png');
+background-size: cover;
+background-position: center;
+height:100vh;
+}
+
+.landing-inner {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    padding-top:50px;
+}
+
+.landing h1 {
+    font-size:50px;
+}
+
+.landing p {
+    font-size:30px;
 }
