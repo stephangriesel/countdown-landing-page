@@ -20,9 +20,9 @@ const intvl = setInterval(() => {
     // Display result
     countdown.innerHTML = `
     <div>${days}<span>Days</span></div>
-    <div>${hours}<span>Days</span></div>
-    <div>${mins}<span>Minutes</span></div>
-    <div>${seconds}<span>Seconds</span></div>
+    <div>${hours}<span>Hrs</span></div>
+    <div>${mins}<span>Min</span></div>
+    <div>${seconds}<span>Sec</span></div>
     `;
 
     // If date passed
